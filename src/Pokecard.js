@@ -6,7 +6,7 @@ const Pokecard = (props) => {
     return (
         <>
             <div> Name: {props.name} </div>
-            <img src={imgSrc} alt={`${props.name}'s image `}></img>
+            <img src={imgSrc} alt={`${props.name}'s image`}></img>
             <div> Type: {props.type} </div>
         </>
     )
