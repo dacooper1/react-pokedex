@@ -9,6 +9,7 @@ const Pokecard = (props) => {
             <div className="Pokecard-name">{props.name} </div>
             <img className="Pokecard-img" src={imgSrc} alt={`${props.name}'s image`}></img>
             <div className="Pokecard-type"> Type: {props.type} </div>
+            <div className="Pokecard-exp"> EXP: {props.exp}</div>
         </div>
     )
 }
